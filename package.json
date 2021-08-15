@@ -1,6 +1,6 @@
 {
-  "name": "use-localstorage",
-  "version": "0.1.0",
+  "name": "use-localstorage2",
+  "version": "0.0.0",
   "description": "React side-effect hook that manages a single localStorage key",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,13 +18,13 @@
   "peerDependencies": {
     "react": ">=16.8"
   },
-  "homepage": "https://github.com/nghiepit/use-localstorage",
+  "homepage": "https://github.com/nghiepit/use-localstorage2",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nghiepit/use-localstorage.git"
+    "url": "git+https://github.com/nghiepit/use-localstorage2.git"
   },
   "bugs": {
-    "url": "https://github.com/nghiepit/use-localstorage/issues"
+    "url": "https://github.com/nghiepit/use-localstorage2/issues"
   },
   "keywords": [
     "localstorage",

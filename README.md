@@ -1,7 +1,7 @@
-# use-localstorage
+# use-localstorage2
 
-[![NPM version](https://img.shields.io/npm/v/use-localstorage.svg)](https://www.npmjs.com/package/use-localstorage)
-[![NPM monthly download](https://img.shields.io/npm/dm/use-localstorage.svg)](https://www.npmjs.com/package/use-localstorage)
+[![NPM version](https://img.shields.io/npm/v/use-localstorage2.svg)](https://www.npmjs.com/package/use-localstorage2)
+[![NPM monthly download](https://img.shields.io/npm/dm/use-localstorage2.svg)](https://www.npmjs.com/package/use-localstorage2)
 
 > React side-effect hook that manages a single localStorage key.
 
@@ -10,7 +10,7 @@
 To install the stable version:
 
 ```sh
-$ yarn add use-localstorage
+$ yarn add use-localstorage2
 ```
 
 ## Usage
