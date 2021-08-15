@@ -1,24 +1,24 @@
 import {useState, useCallback, useMemo, Dispatch, SetStateAction} from 'react';
 
 import {isBrowser, noop} from './utils';
-import {LocalstorageParserOptions} from './types';
+import {LocalStorageParserOptions} from './types';
 
 export function useLocalStorage<T>(
   key: string,
   initialValue: T,
-  options?: LocalstorageParserOptions<T>
+  options?: LocalStorageParserOptions<T>
 ): [T, Dispatch<SetStateAction<T>>, () => void];
 
 export function useLocalStorage<T>(
   key: string,
   initialValue?: T,
-  options?: LocalstorageParserOptions<T>
+  options?: LocalStorageParserOptions<T>
 ): [T | undefined, Dispatch<SetStateAction<T>>, () => void];
 
 export function useLocalStorage<T>(
   key: string,
   initialValue?: T,
-  options?: LocalstorageParserOptions<T>
+  options?: LocalStorageParserOptions<T>
 ): [T | undefined, Dispatch<SetStateAction<T>>, () => void] {
   if (!isBrowser) {
     return [initialValue as T, noop, noop];

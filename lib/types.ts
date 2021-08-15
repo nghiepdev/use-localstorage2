@@ -1,4 +1,4 @@
-export type LocalstorageParserOptions<T> =
+export type LocalStorageParserOptions<T> =
   | {
       raw: true;
     }
