@@ -16,9 +16,9 @@ $ yarn add use-localstorage2
 ## Usage
 
 ```jsx
-import {useLocalStorage} from 'react-use';
+import {useLocalStorage} from 'use-localstorage2';
 
-const Demo = () => {
+const App = () => {
   const [value, setValue, remove] = useLocalStorage('my-key', 'foo');
 
   return (
